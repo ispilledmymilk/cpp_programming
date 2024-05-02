@@ -6,7 +6,14 @@ int main(){
     cout << "Enter your age: " ;
     cin >> age;
     cout << "Your age is " 
-    <<age;
+    <<age
+    << "\n";
+    
+    if (age > 10)
+        cout << "Less";
+    
+    else
+        cout << "More";
     
     return 0;
 }
